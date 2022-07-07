@@ -1,0 +1,76 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main-container > .row {
+    width: 100%;
+    height: 100%;
+    margin: 0!important;
+}
+
+.sidebar-menu {
+    height: 100%;
+    background-color: #343A40;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu > li {
+    padding: 15px;
+}
+
+.sidebar-menu > li > a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.sidebar-menu > li > a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.sidebar-menu > .active {
+    background-color: #fff;
+}
+
+.sidebar-menu > .active > a {
+    color: #343A40;
+}
+
+.sub-container {
+    overflow-y: auto;
+}
+
+.no-value {
+    border: 2px solid red !important;
+    opacity: 1 !important;
+}
+
+.cat-header {
+    color: #007bff;
+}
+
+.no-text {
+    color: rgba(255,0,0,1) !important;
+}
+
+.press-to-video:hover {
+    text-decoration: none;
+}
+
+.video-title {
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow-x: clip;
+}
+
+@media screen and (max-width: 768px){
+    .auth-container > form {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
